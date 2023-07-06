@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    padding: 20px;
+    background-color: orange;
+    justify-content: space-between;
+}
+.navigation{
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-between;
+}
+.footer {
+    padding: 20px;
+    background-color: orange;
+}
+

@@ -1,0 +1,73 @@
+.productdetail {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 10px;
+}
+.productdetail .detail__main {
+    display: flex;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.productdetail .detail__main .detail__banner {
+    width: 40%;
+    aspect-ratio: 4/3;
+    margin-right: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+.productdetail .detail__main .detail__banner  > img {
+    width: 100%;
+    height: 100%;
+    object-fit:  cover;
+}
+.productdetail .detail__main .detail__infor {
+     padding: 20px;
+}
+.productdetail .detail__main .detail__title{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.productdetail .detail__main .detail__desc {
+    color: #333;
+    margin-left: 5px;
+    margin-bottom: 10px;
+
+}
+
+.productdetail .detail__main .detail__price--new {
+    font-size: 26px;
+    color: green;
+    font-weight: 700;
+}
+.productdetail .detail__main .detail__discount {
+    font-size: 20px;
+    color: green;
+    font-weight: 700;
+}
+.productdetail .detail__main .detail__price--old {
+    font-size: 18px;
+    color: red;
+    font-weight: 700;
+}
+
+.detail__images {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+    border: 1px solid gray;
+    padding: 10px;
+    width: 700px;
+}
+.detail__images > img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 10px;
+    
+}

@@ -1,0 +1,36 @@
+.product{
+    display: flex;
+    flex-flow: wrap row;
+    gap: 20px;
+}
+.product__item {
+    width: 29%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.product__image{
+    width: 100%;
+    aspect-ratio: 4/3;
+    height: auto;
+}
+.product__image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.price-new {
+    color: green;
+    font-size: 20px;
+    font-weight: 700;
+}
+.price-old {
+    color: red;
+    font-size: 16px;
+    font-weight: 700;
+}
+.product__title {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
